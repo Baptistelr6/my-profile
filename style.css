@@ -1,0 +1,89 @@
+/* Style général pour la police */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+        }
+}  
+@media (max-width: 500px) {
+.container {
+    width: 400px;
+    }
+}   
+
+
+
+
+/* Cartes blanches */
+.card-white {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Style pour l'image de profil */
+.img-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style du bouton bleu */
+.btn-blue {
+    display: inline-block;
+    color: #fff;
+    background-color: #3498db;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-blue:hover {
+    background-color: #2980b9;
+}
+
+/* Style pour les icônes de la liste */
+.list-inline {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.list-inline li {
+    display: inline;
+}
+
+.list-inline a {
+    color: #333;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.list-inline a:hover {
+    color: #3498db;
+}
